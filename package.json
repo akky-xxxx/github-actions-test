@@ -1,0 +1,28 @@
+{
+  "name": "20200706",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "akky-xxxx <114.s.aki@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "check-all": "run-p spell-check lint type-check",
+    "lint": "eslint './**/*.ts'",
+    "spell-check": "cspell './src/**/*.{ts,tsx}'",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.5.0",
+    "@typescript-eslint/parser": "^3.5.0",
+    "cspell": "^4.0.63",
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.0.5",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  }
+}
