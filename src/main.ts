@@ -3,5 +3,5 @@ export const main: Main = (name) => {
   console.log(`hello ${name || "ts"}!`)
 }
 
-const hoge: string = 12378
-console.log(hoge)
+const num = 12378
+console.log(num)

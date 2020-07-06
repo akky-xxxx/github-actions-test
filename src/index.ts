@@ -1,5 +1,5 @@
 import { main } from "./main"
 
-console.log('テスト')
+console.log("テスト")
 
 main()
